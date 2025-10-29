@@ -1,9 +1,10 @@
 import gulp from "gulp";
-import dartSass from "sass";
+import * as dartSass from "sass";
 import gulpSass from "gulp-sass";
 import cleanCSS from "gulp-clean-css";
 import terser from "gulp-terser";
 import imagemin from "gulp-imagemin";
+import newer from "gulp-newer";
 
 const sass = gulpSass(dartSass);
 
